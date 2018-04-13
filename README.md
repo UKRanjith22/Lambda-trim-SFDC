@@ -4,7 +4,7 @@
 3. In AWS, create a lambda function and upload this zip in `Function code` section, Change the HandlerInfo name to 
 ```trim.handler``` 
 4. In the designer section, add trigger S3 bucket to your AWS lambda function. 
-5. In the environment variable section, Create a key "Client_Identifier" and fill sandbox clientidentifier. 
+5. In the environment variable section, Create a key "Client_Identifier" and fill sandbox client identifier. 
 6. Setup done.
 7. Now when ever you upload a file to bucket, based on the file name, it will get the SFDC Planogram record refernce and creates the attachment.
 
